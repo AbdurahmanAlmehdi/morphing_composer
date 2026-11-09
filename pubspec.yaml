@@ -1,0 +1,34 @@
+name: morphing_composer
+description: A chat composer for Flutter whose input bar morphs into its attachment menu and panels, with an in-app photo grid. RTL and reduced-motion aware.
+version: 0.1.0
+repository: https://github.com/AbdurahmanAlmehdi/morphing_composer
+homepage: https://github.com/AbdurahmanAlmehdi/morphing_composer
+issue_tracker: https://github.com/AbdurahmanAlmehdi/morphing_composer/issues
+topics:
+  - chat
+  - composer
+  - animation
+  - photo-picker
+  - ui
+screenshots:
+  - description: The + button morphing into a menu, then a photo grid; picked photos fly into the bar.
+    path: doc/morphing_composer.gif
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  photo_manager: ^3.12.0
+
+dev_dependencies:
+  alchemist: ^0.14.1
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^11.0.0
+
+flutter:
+  # The default icons (trigger, remove, back) are Material icons.
+  uses-material-design: true

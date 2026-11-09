@@ -1,0 +1,20 @@
+name: morphing_composer_example
+description: An example app for the morphing_composer package.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  morphing_composer:
+    path: ../
+
+dev_dependencies:
+  very_good_analysis: ^11.0.0
+
+flutter:
+  uses-material-design: true

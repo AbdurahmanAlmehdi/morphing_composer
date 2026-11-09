@@ -1,0 +1,10 @@
+.dart_tool/
+.packages
+build/
+pubspec.lock
+.fvm/
+.idea/
+*.iml
+.DS_Store
+coverage/
+test/**/failures/

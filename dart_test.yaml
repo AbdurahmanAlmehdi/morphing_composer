@@ -1,0 +1,3 @@
+tags:
+  # Pixel comparisons (alchemist platform goldens): compared on macOS only, skipped on CI.
+  golden:
